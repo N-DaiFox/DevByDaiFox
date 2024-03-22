@@ -1,0 +1,49 @@
+#logo_navBar{
+    max-width: 150px;
+    padding: 10px 0;
+}
+nav{
+    
+    justify-content: center;
+    text-Align: center;
+    margin: 10px auto;
+    width: 1000px;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+
+
+        li{
+            list-style-type: none;
+            font-size: 18px;
+        }
+    }
+}
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: #272626;
+    font-family: "Playfair";
+  }
+h1{
+    color: #272626;
+    font-family: "Playfair Display SC", Sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+h2{
+    color: #272626;
+    font-size: 18px;
+    font-family: "roboto", Sans-serif;
+    letter-spacing: 30px;
+    text-align: center;
+}
+
+#img_header{
+    display: block;
+    flex-direction: row;
+}
