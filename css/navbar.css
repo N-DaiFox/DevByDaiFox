@@ -1,0 +1,52 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Conteneur principal */
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style du logo dans la barre de navigation */
+#logo_navBar {
+    width: 50px;
+    padding: 10px 0;
+    padding-left: 10px;
+}
+
+/* Styles de la barre de navigation */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 0;
+    padding-right: 20px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 8px;
+    text-decoration: none;
+    color: #272626;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #555;
+}

@@ -1,0 +1,44 @@
+/* Section du Carousel */
+.carousel-section {
+    margin: 50px 0;
+    /* text-align: center; */
+}
+
+.carousel {
+    overflow: hidden;
+    width: 937px;
+    max-height: 526px;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    width: 937px;
+    max-height: 526px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: center;
+    vertical-align: middle;
+    /* position: relative; */
+
+}
+
+.carousel-item img {
+    max-height: 80%;
+    border-radius: 15px;
+}
+
+.description {
+    padding: 0 10px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #444;
+}

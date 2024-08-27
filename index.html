@@ -10,46 +10,156 @@
 
     <link rel="shortcut icon" href="media/image/Logo/logo.png" type="image/x-icon">
 
-    <!-- Add Styles -->
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/searchBar.css">
+    <!-- Import Custom CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/autoCarousel.css">
+
     <!-- Import Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-
-    <nav>
-
-        <img id="logo_navBar" src="media/image/Logo/logo.png"
-            alt="Logo avec le titre Belle Ariane, Belle dans un cercle. Logo de couleur beige avec un léger dégrader">
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="view/shop.html">Boutique</a></li>
-            <li><a href="https://discord.com/invite/r6FfxEcJYg" target="_blank">Discord</a></li>
-            <li><a href="view/account.html">Mon Compte</a></li>
-            <li><a href="view/shoping_cart.html">Panier</a></li>
-            <li><a href="view/aboutUs.html">À propos</a></li>
-            <li><a href="view/aboutUs.html">🖤</a></li>
-
-        </ul>
-        
+    <nav class="navbar">
+        <div class="container-nav">
+            <a class="navbar-brand" href="./index.html">
+                <img id="logo_navBar" src="./media/image/Logo/logo.png" alt="Logo représentant l'avatar de Ryuuna.">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://discord.com/invite/r6FfxEcJYg" target="_blank">Discord</a></li>
+                <li class="nav-item"><a class="nav-link" href="./view/reseau.html">Mes réseaux</a></li>
+                <li class="nav-item"><a class="nav-link" href="./view/aboutUs.html">À propos</a></li>
+            </ul>
+        </div>
     </nav>
-    <div id="header">
-        <h1>Ryuu World</h1>
-        <br>
-        <h2>Artiste pro</h2>
-        <!-- <img id="test" src="/media/image/img_header.jpg" alt=""> -->
-    </div>
 
+    <header class="header">
+        <h1>Bienvenue dans l'univers de Ryuuna</h1>
+        <h3 class="lead">Découvrez les œuvres uniques d'une artiste passionnée.</h3>
+    </header>
 
-    <script src="js/main.js"></script>
-    <script src="utils/js/searchBar.js"></script>
+    <main>
+        <section class="container section-twitch">
+            <div>
+                <h2>Suivez Ryuuna en Direct</h2>
+                <p class="lead">Ne manquez pas les sessions en direct et les coulisses de la création artistique sur Twitch.</p>
+            </div>
+            <div id="twitch-embed"></div>
+        </section>
+
+        <section class="container section-artworks" id="portfolio">
+            <div>
+                <h2>Dernières Œuvres</h2>
+            <p>Explorez les créations les plus récentes de Ryuuna, disponibles à la vente sur mon Vgen.</p>
+            <a class="btn" href="https://vgen.co/ryuwuna/portfolio" target="_blank">Voir toutes les œuvres</a>
+            </div>
+            
+            <section class="carousel-section">
+                <h2>Œuvres de Ryuuna</h2>
+
+                <div class="carousel">
+                    <div class="carousel-track">
+
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/1.webp" alt="Logo VTuber de Rissanyx, conçu par Ryuwuna, montrant un design coloré et stylisé avec des éléments graphiques complexes.">
+                            </div>
+
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/2.webp" alt="Planning de Direfenri, conçu par Ryuwuna, affichant un emploi du temps stylisé avec des éléments graphiques distinctifs.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/3.webp" alt="Logo VTuber de Merri Mellow, conçu par Ryuwuna, avec un design charmant et ludique utilisant des couleurs pastel et des éléments graphiques doux.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/4.webp" alt="Pack Nya de PhoenixMasked, conçu par Ryuwuna, comprenant des éléments graphiques mignons et thématiques avec un style adorable et coloré.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/5.webp" alt="Logo VTuber de Gardiio, conçu par Ryuwuna, avec un design futuriste et épuré, intégrant des éléments graphiques nets et modernes.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/6.webp" alt="Logo et icône de Rinluka, conçus par Ryuwuna, présentant un design élégant et minimaliste avec des couleurs vives et des lignes épurées.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/7.webp" alt="Logo VTuber de BodyEater, conçu par Ryuwuna, avec un design sombre et intense, intégrant des éléments graphiques effrayants et saisissants.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/8.webp" alt="Œuvre 8 de Ryuuna">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/9.webp" alt="Pack Idol d'Agari Uchu, conçu par Ryuwuna, comprenant des éléments graphiques colorés et vibrants, reflétant un style d'idole énergique et joyeux.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/10.webp" alt="Planning de Rin Mitsurugi, conçu par Ryuwuna, affichant un emploi du temps stylisé avec des éléments graphiques dynamiques et élégants.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/11.webp" alt="Overlay de stream de Pharmakitty, conçu par Ryuwuna, avec un design mignon et coloré, intégrant des éléments graphiques liés aux thèmes de la médecine et des chats.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/12.webp" alt="Overlay de stream au style Skeb de MithryaVT, conçu par Ryuwuna, avec un design artistique et élégant, incorporant des éléments graphiques stylisés et colorés.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/13.webp" alt="Logo de Luminaviolet, conçu par Ryuwuna, avec un design lumineux et mystique, utilisant des couleurs vives et des éléments graphiques étoilés.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/14.webp" alt="Pack Nya de SpadeVT, conçu par Ryuwuna, avec des éléments graphiques ludiques et stylisés, intégrant des motifs mignons et colorés.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/15.webp" alt="Pack Nya de Rinmitsurugi, conçu par Ryuwuna, avec des éléments graphiques mignons et colorés.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/16.webp" alt="Panneaux Twitch de Bundroid, conçus par Ryuwuna, avec un design dynamique et enflammé, intégrant des éléments graphiques modernes.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/17.webp" alt="Pack Idol de Grape, conçu par Ryuwuna, avec des éléments graphiques brillants et festifs, utilisant des couleurs vives et des motifs élégants.">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="./media/image/Portfolio/18.webp" alt="Logo Cynosquare, conçu par Ryuwuna, avec un design moderne et distinctif, intégrant des éléments graphiques sophistiqués.">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="container section-news">
+            <div>
+                <h2>Actualités et Événements</h2>
+                <p>Restez informé des prochains événements, et actualités concernant Ryuuna.</p>
+                <h4>Aucune actualitée en cour</h4>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2024 Ryuuna - Tous droits réservés. Fait avec 🖤 par DaiFox.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src=".:js/main.js"></script>
+    <script src="./utils/js/autoCarousel.js"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script src="./utils/js/twitchIntegration.js"></script>
 </body>
 
 </html>

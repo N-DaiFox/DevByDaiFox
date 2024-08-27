@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Apprenez-en plus sur Ryuuna, son parcours artistique, et obtenez des réponses à vos questions fréquentes.">
+
+    <title>Ryuuna ~ À propos</title>
+
+    <link rel="shortcut icon" href="../media/image/Logo/logo.png" type="image/x-icon">
+
+    <!-- Import Custom CSS -->
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/aboutUs.css">
+
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container-nav">
+            <a class="navbar-brand" href="../index.html">
+                <img id="logo_navBar" src="../media/image/Logo/logo.png" alt="Logo représentant l'avatar de Ryuuna.">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="../index.html#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://discord.com/invite/r6FfxEcJYg" target="_blank">Discord</a></li>
+                <li class="nav-item"><a class="nav-link" href="./reseau.html">Mes réseaux</a></li>
+                <li class="nav-item"><a class="nav-link" href="./aboutUs.html">À propos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>À propos de Ryuuna</h1>
+        <h3 class="lead">Découvrez le parcours d'une artiste passionnée et obtenez des réponses à vos questions.</h3>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section About -->
+        <section class="container section-about">
+            <h2>Le parcours de Ryuuna</h2>
+            <p>🐲 Salut ! Moi c'est Ryuu, je suis streameuse et vtuber (je stream avec un avatar), et je suis également graphiste spécialisée dans la création d'identité visuelle pour Vtuber, je réalise donc des overlays, logos, schedules et bien d'autres choses !</p>
+            <p>Je streame très régulièrement et un petit peu de tout, des streams artistique, des jeux comme Minecraft, Apex Legends, des jeux du moments, et de l'ASMR. J'espère qu'on passera de bon moment ensemble 💜</p>
+        </section>
+
+        <!-- Section FAQ avec accordéon -->
+        <section class="container section-faq">
+            <h2>Foire Aux Questions (FAQ)</h2>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <input type="checkbox" id="faq1">
+                    <label for="faq1" class="faq-question">
+                        Quels types de services proposez-vous ?
+                    </label>
+                    <div class="faq-answer">
+                        <p>Ryuuna offre une gamme complète de services artistiques, y compris la conception de logos, d'overlays de stream, de bannières, et bien plus encore. Chaque projet est réalisé sur mesure pour répondre aux besoins spécifiques du client.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <input type="checkbox" id="faq2">
+                    <label for="faq2" class="faq-question">
+                        Comment puis-je commander une œuvre personnalisée ?
+                    </label>
+                    <div class="faq-answer">
+                        <p>Pour commander une œuvre personnalisée, vous pouvez vous rendre sur son <a href="https://vgen.co/ryuwuna" target="_blank">vGen</a>. Après une discussion initiale pour définir vos besoins, un devis vous sera proposé.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <input type="checkbox" id="faq3">
+                    <label for="faq3" class="faq-question">
+                        Quels sont les délais de réalisation d'une commande ?
+                    </label>
+                    <div class="faq-answer">
+                        <p>Les délais de réalisation varient en fonction de la complexité du projet et du calendrier de Ryuuna. En général, il faut compter entre un et trois mois pour la plupart des commandes.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <input type="checkbox" id="faq4">
+                    <label for="faq4" class="faq-question">
+                        Quels sont les moyens de paiement acceptés ?
+                    </label>
+                    <div class="faq-answer">
+                        <p>Ryuuna uniquement PayPal.</p>
+                        <p>Tous les paiements doivent être effectués avant le début du projet.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <input type="checkbox" id="faq5">
+                    <label for="faq5" class="faq-question">
+                        Offrez-vous des révisions après la livraison du projet ?
+                    </label>
+                    <div class="faq-answer">
+                        <p>Oui, Ryuuna offre généralement une ou deux révisions gratuites après la livraison du projet pour garantir que le client est pleinement satisfait du résultat.</p>
+                        <p>Des révisions supplémentaires peuvent être réalisées moyennant un coût additionnel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Ryuuna - Tous droits réservés. Fait avec 🖤 par DaiFox.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
 </body>
+
 </html>
